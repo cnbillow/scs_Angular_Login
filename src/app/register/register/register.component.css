@@ -1,0 +1,188 @@
+.user_login{
+    padding:0.35rem;
+    box-sizing:border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    overflow: hidden;
+}
+.header{
+    position: absolute;
+    top:0;
+    z-index: 11;
+    background:transparent;
+}
+.go_back_btn{
+}
+.bg_div{
+    width:100%;
+    position: absolute;
+    z-index: 0;
+    top:0;
+    overflow: hidden;
+}
+.get_code_btn{
+    outline: none;
+}
+.bg_div > div{
+    width:100%;
+    height:100%;
+    background-image: url('../../../assets/images/login_bg.jpg');
+    background-size:cover;
+    background-position: center;
+    -webkit-filter: blur(10px); /* Chrome, Opera */
+    -moz-filter: blur(10px);
+    -ms-filter: blur(10px);
+    filter: blur(10px);
+    transform: scale(1.3);
+}
+.login_div{
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-flow: column;
+    width:95%;
+}
+.login_div > h2{
+    color:white;
+    letter-spacing: 0.1rem;
+    margin-bottom:0.5rem;
+    font-size:0.6rem;
+}
+.input_div{
+    width:100%;
+    border:1px
+}
+.input_div_div{
+    width:100%;
+    text-align: center;
+}
+.loading{
+    position: absolute !important;
+    top:2.2rem;
+}
+.code_div{
+    width:100%;
+    border:1px
+}
+.input_div > input{
+    background:transparent;
+    border:1px #fff solid;
+    color:white;
+    text-align: center;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    height:1rem;
+    font-size:0.35rem;
+}
+.code_div > input{
+    background:transparent;
+    border:1px #fff solid;
+    color:white;
+    text-align: center;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    height:1rem;
+    font-size:0.35rem;
+    width: calc(100% - 2.5rem - 0.2rem);
+}
+.code_div > input::-webkit-input-placeholder{
+    color:#fff;
+}
+.input_div > input::-webkit-input-placeholder{
+    color:#fff;
+}
+.login_btn{
+    width:100%;
+    height:1rem;
+    color:white;
+    font-size:0.3rem;
+    background:#2ebdea;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    outline: none;
+}
+.any_do > span{
+    padding:0 0.1rem;
+    color:white;
+    font-size:0.3rem;
+    cursor: pointer;
+}
+.any_do{
+    margin-top:0.5rem;
+}
+.code_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.code_btn{
+    height:1rem;
+    color:white;
+    font-size:0.3rem;
+    background:#2ebdea;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    outline: none;
+    margin-left:0.2rem;
+    width:2.5rem;
+}
+/*注册类型css*/
+.register_type{
+    width:100%;
+    text-align:center;
+}
+.register_type_div{
+    background:white;
+    text-align: center;
+    width:100%;
+}
+.student_div{
+    background:#2ebdea;
+}
+.team_div{
+    background:#3bb289;
+}
+.enterprise_div{
+    background:orange;
+    margin-top:0.2rem;
+}
+.register_type_div_s{
+    width:100%;
+    height:1.5rem;
+    text-align: left;
+    padding:0.15rem 0.3rem;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius:5px;
+    cursor: pointer;
+    overflow: hidden;
+}
+.register_type_div_s > p{
+    font-size:0.5rem;
+    color:white;
+}
+.img_div_i{
+    color:white;
+    font-size:0.8rem;
+}
+.white_mb{
+    width:3rem;
+    height:3rem;
+    background:white;
+    opacity: 0.3;
+    position: absolute;
+    top:0;
+    right:-1rem;
+    transform: rotate(-60deg);
+}
